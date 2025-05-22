@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container {
+      width: 748px;
+      height: 748px;
+      background-color: black;
+      display: grid;
+      gap: 9px;
+    }
+    .red {
+      height: 414px;
+      width: 320px;
+      background-color: #E72F24;
+    }
+    .white1 {
+      height: 414px;
+      width: 419px;
+      background-color: #F0F1EC;
+      grid-column-start: 2;
+    }
+    .white2 {
+      height: 296px;
+      width: 320px;
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 1;
+    }
+    .box3 {
+      display: grid;
+      gap: 9px;
+      height: 325px;
+      width: 320px;
+    }
+    .white3 {
+      height: 296px;
+      width: 360px;
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 1;
+
+    }
+    .blue {
+      height: 130px;
+      width: 50px;
+      background-color: #004592;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      
+      
+    }
+    .white4 {
+      height: 20px;
+      width: 320px;
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 2;
+      grid-row-end: 2;
+    }
+    .yellow {
+      height: 20px;
+      width: 198px;
+      background-color: #F9D01E;
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 1;
+    }
+    .black {
+      height: 20px;
+      width: 153px;
+      background-color: #232629;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 1;
+    }
+    .white5 {
+      height: 175px;
+      width: 50px;
+      background-color: #F0F1EC;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 2;
+    }
+    .box4 {
+      display: grid;
+      gap: 9px;
+      height: 325px;
+      width: 419px;
+    }
+    .box4-b {
+      display: grid;
+      gap: 9px;
+    }
+    .box4-r {
+      display: grid;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 1;
+    }
+    .box4-u {
+      display: grid;
+      gap: 9px;
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="red"></div>
+    <div class="white1"></div>
+    <div class="box3">
+      <div class="white2"></div>
+      <div class="white4"></div>
+    </div>
+    <div class="box4">
+      <div class="box4-r">
+        <div class="blue"></div>
+        <div class="white5"></div>
+      </div>
+      <div class="box4-u">
+        <div class="white3"></div>
+          <div class="box4-b">
+            <div class="yellow"></div>
+            <div class="black"></div>
+        </div>
+      </div>
+    </div>
+  </div><!-- Write your HTML here -->
+</body>
+
+</html>

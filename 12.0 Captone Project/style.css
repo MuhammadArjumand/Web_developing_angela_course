@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.hero-video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(246, 100, 178);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    background: transparent; /* optional: makes text easier to read */
+    z-index: 1;
+}
+#arjumand { 
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 5rem;
+}
+.intro {
+    color: rgb(158, 3, 116);
+    background-color: rgb(234, 209, 213);
+    font-family: sans-serif;
+    height: 600px;
+    width: 100%;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-info {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(./pfp.jpg);
+    background-size: contain;
+    display: inline-block;  
+}
+.hello {
+    font-size: 4rem;
+}
+.design-development {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 209, 213);
+}
+.coding {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(./cat-coder.jpg);
+    background-size: contain;
+}
+.design {
+    color: gray;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.design > p {
+    color: rgb(158, 3, 116);
+    font-size: 1rem;
+}
+.skill-heading {
+    border-top: 0.2px solid white;
+    background-color: rgb(234, 209, 213);
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(157, 64, 79);
+    height: 300px;
+}
+.contact-me {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.style-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    background-color: rgb(75, 70, 74);
+    border-radius: 10px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 50px;
+    margin-top: 30px;
+}
+.t {
+    text-decoration: none;
+    color: white;
+}
+.copyright {
+    color: white;
+    margin-top: 30px;
+}

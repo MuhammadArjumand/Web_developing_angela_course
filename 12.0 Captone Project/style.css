@@ -60,7 +60,7 @@ video {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-image: url(./pfp.jpg);
+    background-image: url(./images/pfp.jpg);
     background-size: contain;
     display: inline-block;  
 }
@@ -79,7 +79,7 @@ video {
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background-image: url(./cat-coder.jpg);
+    background-image: url(./images/cat-coder.jpg);
     background-size: contain;
 }
 .design {
